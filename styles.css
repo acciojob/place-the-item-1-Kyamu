@@ -1,22 +1,23 @@
 
 /* Your CSS Code here. */
 .container{
-	
+/* 	width:600px */
 	display:flex;
 	justify-content:space-between;
 	flex-wrap:row-wrap;
+	
 }
 .item1{
 	background-color:brown;
 	height:100px;
 	width:100px;
-/* 	order:1; */
+	order:1;
 }
 .item2{
 	background-color:orange;
 	height:100px;
 	width:100px;
-/* 	order:2; */
+	order:2;
 }
 .item3{
 	background-color:blue;
