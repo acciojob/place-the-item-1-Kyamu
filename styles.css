@@ -4,7 +4,7 @@
 /* 	width:600px */
 	display:flex;
 	justify-content:space-between;
-	flex-wrap:row-wrap;
+	flex-wrap:wrap;
 	
 }
 .item1{
@@ -24,3 +24,5 @@
 	height:100px;
 	width:100px;
 }
+
+
