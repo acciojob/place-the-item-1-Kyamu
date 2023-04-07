@@ -1,7 +1,6 @@
 
 /* Your CSS Code here. */
-.container{
-/* 	width:600px */
+/* .container{
 	display:flex;
 	justify-content:space-between;
 	flex-wrap:wrap;
@@ -11,18 +10,30 @@
 	background-color:brown;
 	height:100px;
 	width:100px;
-	order:1;
+	
 }
 .item2{
 	background-color:orange;
 	height:100px;
 	width:100px;
-	order:2;
+	
 }
 .item3{
 	background-color:blue;
 	height:100px;
 	width:100px;
+} */
+
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
+.item {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  height: 100px;
+  background-color: #ccc;
+}
 
